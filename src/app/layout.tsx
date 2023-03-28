@@ -10,6 +10,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link
+          href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+          rel="stylesheet"
+        />
+        <script
+          defer
+          src="https://kit.fontawesome.com/cc3041f69f.js"
+          crossOrigin="anonymous"
+        ></script>
+      </head>
       <body>
         <div className="container">
           <div className="header">
