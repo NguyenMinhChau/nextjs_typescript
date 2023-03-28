@@ -1,6 +1,8 @@
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 import './styles/globals.css';
 export const metadata = {
-  title: 'Home Page',
+  title: 'My Portfolio',
 };
 
 export default function RootLayout({
@@ -23,12 +25,16 @@ export default function RootLayout({
       </head>
       <body>
         <div className="container">
-          <div className="header">
-            <h1>Next.js TypeScript Header</h1>
-          </div>
+          <Header />
           <section className="content">{children}</section>
-          <div className="footer">
-            <h1>Next.js TypeScript Footer</h1>
+          <Footer />
+        </div>
+        <div className="noSupport">
+          <div className="noSupport__content">
+            <p className="noSupport__title">This device is not supported</p>
+            <p className="noSupport__text">
+              Please use Chrome, Firefox, Safari, Edge or Opera on PC.
+            </p>
           </div>
         </div>
       </body>

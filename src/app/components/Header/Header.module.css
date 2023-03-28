@@ -1,0 +1,55 @@
+.header_container {
+  display: flex;
+  flex-direction: row;
+  padding: 24px 12px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.logo_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.name_app {
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.nav_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 3;
+}
+.nav_link {
+  margin: 0 15px;
+  font-size: 18px;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.nav_link:hover {
+  font-weight: bold;
+  color: #6476f0;
+  text-decoration: underline;
+}
+.social_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.social_icon {
+  font-size: 20px;
+  margin: 0 8px;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.linkedln_social:hover {
+  color: #0562c0;
+}
+.facebook_social:hover {
+  color: #3b5998;
+}
