@@ -1,30 +1,79 @@
 /* eslint-disable @next/next/no-img-element */
+'use client';
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './Header.module.css';
 
 function Header() {
+  const [isShow, setIsShow] = useState(false);
+  const handleShow = () => {
+    setIsShow(!isShow);
+  };
+  const handleClickMenu = () => {
+    handleShow();
+    resizeWindow();
+  };
+  const resizeWindow = () => {
+    if (
+      window.innerWidth <= 600 ||
+      (window.innerWidth > 600 && window.innerWidth <= 960)
+    ) {
+      setIsShow(false);
+    } else {
+      setIsShow(true);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener('resize', resizeWindow);
+    resizeWindow();
+    return () => {
+      window.removeEventListener('resize', resizeWindow);
+    };
+  }, []);
   return (
     <div className={styles.header_container}>
       <Link href="/" className={styles.logo_container}>
-        <img src="/svgs/User_Card_ID.svg" alt="" className={styles.logo} />
-        <span className={styles.name_app}>Portfolio</span>
+        <img src="/svgs/logo_web_50x50.svg" alt="" className={styles.logo} />
       </Link>
-      <div className={styles.nav_container}>
-        <Link className={styles.nav_link} href="#Hero">
-          Hero
+      <div
+        className={`${styles.nav_container} ${
+          isShow ? styles.show : styles.hide
+        }`}
+      >
+        <Link
+          className={styles.nav_link}
+          onClick={handleClickMenu}
+          href="/news"
+        >
+          Tin tức
         </Link>
-        <Link className={styles.nav_link} href="#Projects">
-          Projects
+        <Link
+          className={styles.nav_link}
+          onClick={handleClickMenu}
+          href="/projects"
+        >
+          Dự án
         </Link>
-        <Link className={styles.nav_link} href="#Technology">
-          Technology
+        <Link
+          className={styles.nav_link}
+          onClick={handleClickMenu}
+          href="/technologies"
+        >
+          Công nghệ
         </Link>
-        <Link className={styles.nav_link} href="#Timeline">
-          Timeline
+        <Link
+          className={styles.nav_link}
+          onClick={handleClickMenu}
+          href="/timeline"
+        >
+          Mốc thời gian
         </Link>
-        <Link className={styles.nav_link} href="#Acomplishment">
-          Acomplishment
+        <Link
+          className={styles.nav_link}
+          onClick={handleClickMenu}
+          href="/acomplishments"
+        >
+          Thành tích
         </Link>
       </div>
       <div className={styles.social_container}>
@@ -49,6 +98,27 @@ function Header() {
         >
           <i className="fa-brands fa-facebook"></i>
         </Link>
+        <Link
+          className={`${styles.phone_social} ${styles.social_icon}`}
+          href="tel:0398365404"
+          target={'_parent'}
+        >
+          <i className="fa-solid fa-phone"></i>
+        </Link>
+        <Link
+          className={`${styles.email_social} ${styles.social_icon}`}
+          href="mailto:chaunmtech@gmail.com"
+          target={'_parent'}
+        >
+          <i className="fa-solid fa-envelope"></i>
+        </Link>
+        <div onClick={handleShow} className={styles.icon_menu_container}>
+          {isShow ? (
+            <i className="fa-solid fa-xmark"></i>
+          ) : (
+            <i className="fa-solid fa-bars"></i>
+          )}
+        </div>
       </div>
     </div>
   );

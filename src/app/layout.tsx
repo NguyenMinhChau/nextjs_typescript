@@ -2,7 +2,7 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import './styles/globals.css';
 export const metadata = {
-  title: 'My Portfolio',
+  title: 'Trang chủ • Nguyễn Minh Châu',
 };
 
 export default function RootLayout({
@@ -28,14 +28,6 @@ export default function RootLayout({
           <Header />
           <section className="content">{children}</section>
           <Footer />
-        </div>
-        <div className="noSupport">
-          <div className="noSupport__content">
-            <p className="noSupport__title">This device is not supported</p>
-            <p className="noSupport__text">
-              Please use Chrome, Firefox, Safari, Edge or Opera on PC.
-            </p>
-          </div>
         </div>
       </body>
     </html>

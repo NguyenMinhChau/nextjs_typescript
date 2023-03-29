@@ -3,6 +3,9 @@
   flex-direction: row;
   padding: 24px 12px;
   font-family: 'Courier New', Courier, monospace;
+  flex-wrap: wrap;
+  width: 100%;
+  border-bottom: 5px solid #30363d;
 }
 .logo_container {
   display: flex;
@@ -11,19 +14,20 @@
   flex: 1;
 }
 .logo {
-  width: 50px;
-  height: 50px;
-}
-.name_app {
-  font-size: 20px;
-  margin-left: 10px;
-  font-weight: bold;
+  width: 100px;
+  height: 100px;
 }
 .nav_container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 3;
+}
+.nav_container.show {
+  display: flex;
+}
+.nav_container.hide {
+  display: none;
 }
 .nav_link {
   margin: 0 15px;
@@ -52,4 +56,104 @@
 }
 .facebook_social:hover {
   color: #3b5998;
+}
+.phone_social:hover {
+  color: #00a8ff;
+}
+.email_social:hover {
+  color: #d44638;
+}
+.icon_menu_container {
+  padding: 12px;
+}
+.icon_menu_container i {
+  font-size: 25px;
+}
+/* PC */
+@media (min-width: 64em) {
+  .icon_menu_container {
+    display: none;
+  }
+}
+
+/* TABLET */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  .header_container {
+    padding: 12px;
+  }
+  .logo_container {
+    flex: none;
+    width: 50%;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+  .nav_container {
+    order: 3;
+    flex-direction: column;
+    border: 0.5px solid #30363d;
+    width: 100%;
+    animation: fadeInTopLeftToBottomRight 0.5s
+      cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .nav_link {
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+  }
+  .social_container {
+    justify-content: flex-end;
+    flex: none;
+    width: 50%;
+  }
+  .skill_title {
+    justify-content: center;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 46.25em) {
+  .header_container {
+    padding: 12px 12px;
+  }
+  .nav_container {
+    order: 3;
+    flex-direction: column;
+    border: 0.5px solid #30363d;
+    animation: fadeInTopLeftToBottomRight 0.5s
+      cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .logo_container {
+    flex: none;
+    width: 50%;
+  }
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+  .nav_link {
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+  }
+  .social_container {
+    justify-content: flex-end;
+    flex: none;
+    width: 50%;
+  }
+  .skill_title {
+    justify-content: center;
+  }
+}
+
+@keyframes fadeInTopLeftToBottomRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
