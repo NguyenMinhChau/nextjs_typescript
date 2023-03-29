@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Tin tức • Nguyễn Minh Châu',
+  title: 'Kỹ năng • Nguyễn Minh Châu',
 };
 
 export default function NewsLayout({

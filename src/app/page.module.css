@@ -20,7 +20,7 @@
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
   margin: 10px 0;
-  color: #219de1;
+  color: #1d6cf5;
 }
 .position_dev_text {
   font-size: 20px;
@@ -34,6 +34,8 @@
   height: 0;
   width: 100%;
   flex: 1;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .image {

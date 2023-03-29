@@ -79,14 +79,25 @@
   margin: 0;
 }
 
-* html::-webkit-scrollbar {
-  display: none;
+body::-webkit-scrollbar {
+  width: 5px;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #444654;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #343541;
 }
 
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 body {

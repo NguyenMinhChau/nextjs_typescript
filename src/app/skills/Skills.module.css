@@ -1,0 +1,31 @@
+.skills_container {
+  padding: 24px 12px;
+}
+
+.skill_item_container {
+  position: relative;
+  width: 100%;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 12px;
+  min-height: 30px;
+  margin-bottom: 20px;
+}
+.skill_name {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  padding: 0 10px 10px 10px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #000000;
+}
+.skill_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.skill_logo {
+  margin: 10px;
+}

@@ -43,9 +43,9 @@ function Header() {
         <Link
           className={styles.nav_link}
           onClick={handleClickMenu}
-          href="/news"
+          href="/skills"
         >
-          Tin tức
+          Kỹ năng
         </Link>
         <Link
           className={styles.nav_link}
