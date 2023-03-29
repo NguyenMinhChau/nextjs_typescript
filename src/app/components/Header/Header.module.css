@@ -30,14 +30,15 @@
   display: none;
 }
 .nav_link {
-  margin: 0 15px;
+  padding: 15px;
   font-size: 18px;
+  font-weight: bold;
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .nav_link:hover {
-  font-weight: bold;
-  color: #6476f0;
+  color: #1c65e6;
   text-decoration: underline;
+  transform: scale(1.1);
 }
 .social_container {
   display: flex;

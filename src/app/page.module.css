@@ -47,6 +47,8 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center center;
+  /* image-rendering: auto;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2)); */
 }
 
 /* MOBILE */

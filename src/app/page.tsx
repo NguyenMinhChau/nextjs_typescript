@@ -2,8 +2,6 @@
 
 import styles from './page.module.css';
 import React from 'react';
-import { Button } from '@mui/material';
-import Link from 'next/link';
 
 function Home() {
   return (
@@ -12,7 +10,7 @@ function Home() {
         <div className={styles.info_personal}>
           <span className={styles.hello_text}>Xin chào,</span>
           <h2 className={styles.intro_name_text}>
-            Tôi là <i>Nguyễn Minh Châu</i> - Since 2001
+            Tôi là <i>Nguyễn Minh Châu</i> - Xuất bản 2001
           </h2>
           <p className={styles.position_dev_text} style={{ color: '#bb0000' }}>
             Frontend Developer (Website, Mobile App)
