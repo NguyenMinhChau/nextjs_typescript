@@ -1,11 +1,17 @@
 .header_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   flex-direction: row;
-  padding: 24px 12px;
-  font-family: 'Courier New', Courier, monospace;
   flex-wrap: wrap;
+  padding: var(--padding-header);
   width: 100%;
   border-bottom: 5px solid #30363d;
+  font-family: var(--font-family-primary);
+  z-index: 99999;
 }
 .logo_container {
   display: flex;
@@ -14,8 +20,8 @@
   flex: 1;
 }
 .logo {
-  width: 100px;
-  height: 100px;
+  width: var(--image-logo-height);
+  height: var(--image-logo-height);
 }
 .nav_container {
   display: flex;
@@ -36,8 +42,7 @@
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .nav_link:hover {
-  color: #1c65e6;
-  text-decoration: underline;
+  color: var(--primary-color);
   transform: scale(1.1);
 }
 .social_container {
@@ -52,17 +57,11 @@
   transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.linkedln_social:hover {
-  color: #0562c0;
-}
-.facebook_social:hover {
-  color: #3b5998;
-}
-.phone_social:hover {
-  color: #00a8ff;
-}
+.linkedln_social:hover,
+.facebook_social:hover,
+.phone_social:hover,
 .email_social:hover {
-  color: #d44638;
+  color: var(--primary-color);
 }
 .icon_menu_container {
   padding: 12px;

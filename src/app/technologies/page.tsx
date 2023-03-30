@@ -4,7 +4,9 @@ import styles from './Technologies.module.css';
 function Technologies() {
   return (
     <div className={styles.technologies_container}>
-      <h1>TRANG CÔNG NGHỆ</h1>
+      <p className={styles.desc}>
+        Trang đang được cập nhật, vui lòng quay lại sau!
+      </p>
     </div>
   );
 }

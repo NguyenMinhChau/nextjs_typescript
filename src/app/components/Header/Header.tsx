@@ -71,9 +71,9 @@ function Header() {
         <Link
           className={styles.nav_link}
           onClick={handleClickMenu}
-          href="/acomplishments"
+          href="/certificates"
         >
-          Thành tích
+          Chứng chỉ
         </Link>
       </div>
       <div className={styles.social_container}>
