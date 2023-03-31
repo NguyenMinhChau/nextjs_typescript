@@ -75,6 +75,14 @@ function Header() {
         >
           Chứng chỉ
         </Link>
+        <Link
+          className={styles.nav_link}
+          onClick={handleClickMenu}
+          href="https://myblognmc.netlify.app/"
+          target="_blank"
+        >
+          Tài liệu
+        </Link>
       </div>
       <div className={styles.social_container}>
         <Link
