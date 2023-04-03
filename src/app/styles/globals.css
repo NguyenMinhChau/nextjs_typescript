@@ -137,5 +137,7 @@ a {
 
 .content {
   flex: 1;
-  margin-top: calc(var(--image-logo-height) + (var(--padding-header) * 2));
+  margin-top: calc(
+    var(--image-logo-height) + (var(--padding-header) * 2) + 15px
+  );
 }
