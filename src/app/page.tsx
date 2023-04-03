@@ -30,7 +30,7 @@ function Home() {
         <div className={styles.image_personal}>
           <div
             className={styles.image}
-            style={{ backgroundImage: `url('/images/personal.png')` }}
+            style={{ backgroundImage: `url('/images/personal01.png')` }}
           ></div>
         </div>
       </div>

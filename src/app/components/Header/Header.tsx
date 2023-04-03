@@ -33,7 +33,7 @@ function Header() {
   return (
     <div className={styles.header_container}>
       <Link href="/" className={styles.logo_container}>
-        <img src="/svgs/logo_web_50x50.svg" alt="" className={styles.logo} />
+        <img src="/svgs/logo_new.svg" alt="" className={styles.logo} />
       </Link>
       <div
         className={`${styles.nav_container} ${

@@ -40,7 +40,7 @@
   --card-border-rgb: 131, 134, 135;
 
   --primary-color: #1c65e6;
-  --image-logo-height: 80px;
+  --image-logo-height: 70px;
   --padding-header: 8px;
   --font-family-primary: 'Courier New', Courier, monospace;
 }
@@ -112,7 +112,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb)); */
-  background: linear-gradient(45deg, #000000, #cccccc);
+  background-image: url('/svgs/bg_image.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
 }
 
 a {
@@ -135,8 +138,4 @@ a {
 .content {
   flex: 1;
   margin-top: calc(var(--image-logo-height) + (var(--padding-header) * 2));
-  background-image: url('/svgs/bg_image.svg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center center;
 }

@@ -9,7 +9,7 @@ function Projects() {
   return (
     <div className={styles.projects_container}>
       <ProjectItemCP
-        imageHeaderUrl="/svgs/logo_web_50x50.svg"
+        imageHeaderUrl="/svgs/logo_new.svg"
         imageHeaderTitle="Tiki Clone"
         linkWeb="https://tikidev.netlify.app/"
         bodyTitle="Công nghệ sử dụng trong dự án: HTML, CSS"
@@ -20,7 +20,7 @@ function Projects() {
         imageFooterTitle="Tiki Clone"
       />
       <ProjectItemCP
-        imageHeaderUrl="/svgs/logo_web_50x50.svg"
+        imageHeaderUrl="/svgs/logo_new.svg"
         imageHeaderTitle="Disney Clone"
         linkWeb="https://disney-clone-eecae.web.app/home"
         bodyTitle="Công nghệ sử dụng trong dự án: ReactJS, Firebase,..."
@@ -31,7 +31,7 @@ function Projects() {
         imageFooterTitle="Disney Clone"
       />
       <ProjectItemCP
-        imageHeaderUrl="/svgs/logo_web_50x50.svg"
+        imageHeaderUrl="/svgs/logo_new.svg"
         imageHeaderTitle="Weather Clone"
         linkWeb="https://nguyenminhchau.github.io/weather/"
         bodyTitle="Công nghệ sử dụng trong dự án: HTML, CSS, Javascript."
@@ -42,7 +42,7 @@ function Projects() {
         imageFooterTitle="Weather Clone"
       />
       <ProjectItemCP
-        imageHeaderUrl="/svgs/logo_web_50x50.svg"
+        imageHeaderUrl="/svgs/logo_new.svg"
         imageHeaderTitle="NotePad"
         linkWeb="https://reactjs-nmc.netlify.app/"
         bodyTitle="Công nghệ sử dụng trong dự án: ReactJS, Bootstrap"
@@ -53,7 +53,7 @@ function Projects() {
         imageFooterTitle="NotePad"
       />
       <ProjectItemCP
-        imageHeaderUrl="/svgs/logo_web_50x50.svg"
+        imageHeaderUrl="/svgs/logo_new.svg"
         imageHeaderTitle="Website e-commerce"
         linkWeb="https://nguyenminhchau.site/"
         bodyTitle="Công nghệ sử dụng trong dự án: ReactJS, NodeJS, ExpressJS, MongoDB,..."
@@ -64,7 +64,7 @@ function Projects() {
         imageFooterTitle="Website e-commerce"
       />
       <ProjectItemCP
-        imageHeaderUrl="/svgs/logo_web_50x50.svg"
+        imageHeaderUrl="/svgs/logo_new.svg"
         imageHeaderTitle="Linkedln Clone"
         linkWeb="https://linkedln-clone-5568b.web.app/"
         bodyTitle="Công nghệ sử dụng trong dự án: ReactJS, Redux, Redux-Toolkit, Firebase,..."
@@ -75,7 +75,7 @@ function Projects() {
         imageFooterTitle="Linkedln Clone"
       />
       <ProjectItemCP
-        imageHeaderUrl="/svgs/logo_web_50x50.svg"
+        imageHeaderUrl="/svgs/logo_new.svg"
         imageHeaderTitle="Messenger Clone Simple"
         linkWeb="https://messenger-app-090622.web.app/"
         bodyTitle="Công nghệ sử dụng trong dự án: ReactJS, Firebase,..."
@@ -86,7 +86,7 @@ function Projects() {
         imageFooterTitle="Messenger Clone Simple"
       />
       <ProjectItemCP
-        imageHeaderUrl="/svgs/logo_web_50x50.svg"
+        imageHeaderUrl="/svgs/logo_new.svg"
         imageHeaderTitle="ShopCoin USA (Android app)"
         linkWeb="https://play.google.com/store/apps/details?id=com.shopcoin"
         bodyTitle="Công nghệ sử dụng trong dự án: React Native, socket.io,..."
@@ -97,7 +97,7 @@ function Projects() {
         imageFooterTitle="ShopCoin USA (Android app)"
       />
       <ProjectItemCP
-        imageHeaderUrl="/svgs/logo_web_50x50.svg"
+        imageHeaderUrl="/svgs/logo_new.svg"
         imageHeaderTitle="Provident Fund (Android app)"
         linkWeb="https://play.google.com/store/apps/details?id=com.mobiletransactions"
         bodyTitle="Công nghệ sử dụng trong dự án: React Native,..."
