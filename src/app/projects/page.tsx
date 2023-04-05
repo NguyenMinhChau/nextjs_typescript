@@ -21,6 +21,17 @@ function Projects() {
       />
       <ProjectItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
+        imageHeaderTitle="My Movie"
+        linkWeb="https://mymovie-nguyenminhchau.vercel.app/"
+        bodyTitle="Công nghệ sử dụng trong dự án: ReactJS, Rapid API"
+        bodyDescDetail="Sản phẩm này được viết bằng framework ReactJS + Rapid API Youtube v3 để tạo nên giao diện xem video như youtube"
+        footerTextLeft="My Movie"
+        footerTextRight="Personal"
+        imageFooterUrl="/images/mymovie.png"
+        imageFooterTitle="My Movie"
+      />
+      <ProjectItemCP
+        imageHeaderUrl="/svgs/logo_new.svg"
         imageHeaderTitle="Disney Clone"
         linkWeb="https://disney-clone-eecae.web.app/home"
         bodyTitle="Công nghệ sử dụng trong dự án: ReactJS, Firebase,..."
