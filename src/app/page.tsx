@@ -1,19 +1,26 @@
 'use client';
-
 import styles from './page.module.css';
 import React from 'react';
+import Typed from 'react-typed';
 
 function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.header}>
-        <div className={styles.info_personal}>
+        <div
+          className={`${styles.info_personal} animate__animated animate__fadeInDown`}
+        >
           <span className={styles.hello_text}>Xin chào 👋,</span>
           <h2 className={styles.intro_name_text}>
             Tôi là <i>Nguyễn Minh Châu</i> - Xuất bản 2001 😂
           </h2>
-          <p className={styles.position_dev_text} style={{ color: '#bb0000' }}>
-            Frontend Developer (Website, Mobile App)
+          <p className={`${styles.position_dev_text} ${styles.dev_text_color}`}>
+            <Typed
+              strings={['Frontend Developer (Website, Mobile App)']}
+              typeSpeed={50}
+              backSpeed={50}
+              showCursor={false}
+            />
           </p>
           <p className={styles.position_dev_text}>
             • Tôi tốt nghiệp Đại học Sư phạm Thành phố Hồ Chí Minh. Tôi hiện
@@ -27,7 +34,9 @@ function Home() {
             Rất vui khi được biết bạn 😊
           </p>
         </div>
-        <div className={styles.image_personal}>
+        <div
+          className={`${styles.image_personal} animate__animated animate__fadeInRight`}
+        >
           <div
             className={styles.image}
             style={{ backgroundImage: `url('/images/personal01.png')` }}

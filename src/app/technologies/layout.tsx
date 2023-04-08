@@ -1,3 +1,5 @@
+import LazyLoader from '../components/LazyLoader/LazyLoader';
+
 export const metadata = {
   title: 'Công nghệ • Nguyễn Minh Châu',
 };
@@ -7,5 +9,5 @@ export default function TechnologiesLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <section>{children}</section>;
+  return <LazyLoader>{children}</LazyLoader>;
 }

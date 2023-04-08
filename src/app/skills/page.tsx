@@ -6,7 +6,7 @@ import styles from './Skills.module.css';
 function Skills() {
   return (
     <div className={styles.skills_container}>
-      <div className={styles.skill_item_container}>
+      <div className={`${styles.skill_item_container}`} data-aos="fade-right">
         <p className={styles.skill_name}>Frontend</p>
         <div className={styles.skill_list}>
           <img
@@ -102,7 +102,7 @@ function Skills() {
           />
         </div>
       </div>
-      <div className={styles.skill_item_container}>
+      <div className={`${styles.skill_item_container}`} data-aos="fade-left">
         <p className={styles.skill_name}>Backend</p>
         <div className={styles.skill_list}>
           <img
@@ -121,7 +121,7 @@ function Skills() {
           />
         </div>
       </div>
-      <div className={styles.skill_item_container}>
+      <div className={`${styles.skill_item_container}`} data-aos="fade-right">
         <p className={styles.skill_name}>Mobile</p>
         <div className={styles.skill_list}>
           <img
@@ -133,7 +133,7 @@ function Skills() {
           />
         </div>
       </div>
-      <div className={styles.skill_item_container}>
+      <div className={`${styles.skill_item_container}`} data-aos="fade-left">
         <p className={styles.skill_name}>Database</p>
         <div className={styles.skill_list}>
           <img
@@ -152,7 +152,7 @@ function Skills() {
           />
         </div>
       </div>
-      <div className={styles.skill_item_container}>
+      <div className={`${styles.skill_item_container}`} data-aos="fade-right">
         <p className={styles.skill_name}>Services</p>
         <div className={styles.skill_list}>
           <img
@@ -171,7 +171,7 @@ function Skills() {
           />
         </div>
       </div>
-      <div className={styles.skill_item_container}>
+      <div className={`${styles.skill_item_container}`} data-aos="fade-left">
         <p className={styles.skill_name}>Tools</p>
         <div className={styles.skill_list}>
           <img
@@ -197,7 +197,7 @@ function Skills() {
           />
         </div>
       </div>
-      <div className={styles.skill_item_container}>
+      <div className={`${styles.skill_item_container}`} data-aos="fade-right">
         <p className={styles.skill_name}>Others</p>
         <div className={styles.skill_list}>
           <img

@@ -2,10 +2,45 @@
 'use client';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 import styles from './Header.module.css';
+
+const ROUTERS = [
+  {
+    id: 1,
+    path: '/skills',
+    name: 'Kỹ năng',
+  },
+  {
+    id: 2,
+    path: '/projects',
+    name: 'Dự án',
+  },
+  {
+    id: 3,
+    path: '/technologies',
+    name: 'Công nghệ',
+  },
+  {
+    id: 4,
+    path: '/timeline',
+    name: 'Mốc thời gian',
+  },
+  {
+    id: 5,
+    path: '/certificates',
+    name: 'Chứng chỉ',
+  },
+  {
+    id: 6,
+    path: 'https://myblognmc.netlify.app/',
+    name: 'Tài liệu',
+  },
+];
 
 function Header() {
   const [isShow, setIsShow] = useState(false);
+  const patchname = usePathname();
   const handleShow = () => {
     setIsShow(!isShow);
   };
@@ -40,49 +75,20 @@ function Header() {
           isShow ? styles.show : styles.hide
         }`}
       >
-        <Link
-          className={styles.nav_link}
-          onClick={handleClickMenu}
-          href="/skills"
-        >
-          Kỹ năng
-        </Link>
-        <Link
-          className={styles.nav_link}
-          onClick={handleClickMenu}
-          href="/projects"
-        >
-          Dự án
-        </Link>
-        <Link
-          className={styles.nav_link}
-          onClick={handleClickMenu}
-          href="/technologies"
-        >
-          Công nghệ
-        </Link>
-        <Link
-          className={styles.nav_link}
-          onClick={handleClickMenu}
-          href="/timeline"
-        >
-          Mốc thời gian
-        </Link>
-        <Link
-          className={styles.nav_link}
-          onClick={handleClickMenu}
-          href="/certificates"
-        >
-          Chứng chỉ
-        </Link>
-        <Link
-          className={styles.nav_link}
-          onClick={handleClickMenu}
-          href="https://myblognmc.netlify.app/"
-          target="_blank"
-        >
-          Tài liệu
-        </Link>
+        {ROUTERS.map((item, index) => {
+          const classed =
+            item.path === patchname.toString() ? styles.active : '';
+          return (
+            <Link
+              key={item.id}
+              className={`${styles.nav_link} ${classed}`}
+              onClick={handleClickMenu}
+              href={item.path}
+            >
+              {item.name}
+            </Link>
+          );
+        })}
       </div>
       <div className={styles.social_container}>
         <Link

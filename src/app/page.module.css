@@ -27,6 +27,14 @@
   line-height: 1.8;
 }
 
+.dev_text_color {
+  font-weight: bold;
+  background: #10f300;
+  background: repeating-linear-gradient(to top right, #10f300 0%, #001aff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .image_personal {
   position: relative;
   padding-bottom: 30%;

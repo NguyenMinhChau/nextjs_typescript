@@ -1,3 +1,5 @@
+import LazyLoader from '../components/LazyLoader/LazyLoader';
+
 export const metadata = {
   title: 'Mốc thời gian • Nguyễn Minh Châu',
 };
@@ -7,5 +9,5 @@ export default function TimelineLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <section>{children}</section>;
+  return <LazyLoader>{children}</LazyLoader>;
 }

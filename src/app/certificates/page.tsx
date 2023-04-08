@@ -14,6 +14,7 @@ function Certificates() {
         footerTextRight="DEK Technologies"
         imageFooterUrl="/images/dekagile.png"
         imageFooterTitle="Certificate"
+        dataAos="fade-down"
       />
       <CertificateItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
@@ -24,6 +25,7 @@ function Certificates() {
         footerTextRight="Codelearn"
         imageFooterUrl="/images/codelearnjscoban.png"
         imageFooterTitle="Certificate"
+        dataAos="fade-down"
       />
       <CertificateItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
@@ -34,6 +36,7 @@ function Certificates() {
         footerTextRight="F8"
         imageFooterUrl="/images/f8jsbasic.png"
         imageFooterTitle="Certificate"
+        dataAos="fade-down"
       />
       <CertificateItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
@@ -44,6 +47,7 @@ function Certificates() {
         footerTextRight="FreeCodeCamp"
         imageFooterUrl="/images/freecodecampresponsiveweb.png"
         imageFooterTitle="Certificate"
+        dataAos="fade-down"
       />
       <CertificateItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
@@ -54,6 +58,7 @@ function Certificates() {
         footerTextRight="F8"
         imageFooterUrl="/images/f8responsive.png"
         imageFooterTitle="Certificate"
+        dataAos="fade-down"
       />
       <CertificateItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
@@ -64,6 +69,7 @@ function Certificates() {
         footerTextRight="F8"
         imageFooterUrl="/images/f8htmlcss.png"
         imageFooterTitle="Certificate"
+        dataAos="fade-down"
       />
       <CertificateItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
@@ -74,6 +80,7 @@ function Certificates() {
         footerTextRight="F8"
         imageFooterUrl="/images/f8jsadvance.png"
         imageFooterTitle="Certificate"
+        dataAos="fade-down"
       />
       <CertificateItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
@@ -84,6 +91,7 @@ function Certificates() {
         footerTextRight="F8"
         imageFooterUrl="/images/f8reactjs.png"
         imageFooterTitle="Certificate"
+        dataAos="fade-down"
       />
     </div>
   );

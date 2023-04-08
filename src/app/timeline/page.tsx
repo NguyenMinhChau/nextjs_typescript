@@ -13,7 +13,7 @@ import TimeLineItemCP from './timeLineItem';
 
 function TimelinePage() {
   return (
-    <div className={styles.timeline_container}>
+    <div className={styles.timeline_container} data-aos="zoom-in">
       <Timeline position="alternate">
         <TimeLineItemCP
           timer="2016 - 2019"

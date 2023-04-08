@@ -13,6 +13,7 @@ type ProjectItemCPProps = {
   footerTextRight?: string;
   imageFooterUrl: string;
   imageFooterTitle?: string;
+  dataAos?: string;
 };
 
 function ProjectItemCP({
@@ -25,9 +26,10 @@ function ProjectItemCP({
   footerTextRight,
   imageFooterUrl,
   imageFooterTitle,
+  dataAos,
 }: ProjectItemCPProps) {
   return (
-    <div className={styles.project_item_container}>
+    <div className={styles.project_item_container} data-aos={dataAos}>
       <div className={styles.header}>
         <img
           src={imageHeaderUrl}

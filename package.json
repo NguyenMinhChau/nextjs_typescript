@@ -17,16 +17,21 @@
     "@mui/styled-engine-sc": "^5.11.11",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
+    "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
     "evergreen-ui": "^7.1.5",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-loading-skeleton": "^3.2.0",
+    "react-typed": "^1.2.0",
     "styled-components": "^5.3.9",
     "typescript": "5.0.2"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.4",
     "@types/node": "^18.15.6"
   }
 }

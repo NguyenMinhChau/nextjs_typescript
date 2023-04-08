@@ -12,6 +12,7 @@ type CertificatesItemCPProps = {
   footerTextRight?: string;
   imageFooterUrl: string;
   imageFooterTitle?: string;
+  dataAos?: string;
 };
 
 function CertificateItemCP({
@@ -23,9 +24,10 @@ function CertificateItemCP({
   footerTextRight,
   imageFooterUrl,
   imageFooterTitle,
+  dataAos,
 }: CertificatesItemCPProps) {
   return (
-    <div className={styles.certificates_item_container}>
+    <div className={styles.certificates_item_container} data-aos={dataAos}>
       <div className={styles.header}>
         <img
           src={imageHeaderUrl}
