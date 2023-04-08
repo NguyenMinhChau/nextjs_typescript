@@ -22,7 +22,7 @@
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
     "evergreen-ui": "^7.1.5",
-    "next": "13.2.4",
+    "next": "^13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-loading-skeleton": "^3.2.0",
@@ -32,6 +32,9 @@
   },
   "devDependencies": {
     "@types/aos": "^3.0.4",
-    "@types/node": "^18.15.6"
+    "@types/node": "^18.15.6",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
   }
 }
