@@ -44,7 +44,6 @@ export default function RootLayout({
           </LazyLoader>
           <div className="content">{children}</div>
           <LazyLoader>
-            <h1 className="text-3xl font-bold underline">Hello world!</h1>
             <LazyFooterCP />
           </LazyLoader>
         </div>
