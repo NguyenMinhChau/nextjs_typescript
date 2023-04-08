@@ -1,17 +1,15 @@
 'use client';
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Timeline from '@mui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
-import TimelineConnector from '@mui/lab/TimelineConnector';
-import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
-import TimelineDot from '@mui/lab/TimelineDot';
-import Typography from '@mui/material/Typography';
 import styles from './Timeline.module.css';
 import TimeLineItemCP from './timeLineItem';
 
 function TimelinePage() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className={styles.timeline_container} data-aos="zoom-in">
       <Timeline position="alternate">

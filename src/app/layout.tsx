@@ -1,24 +1,16 @@
-'use client';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import './styles/globals.css';
-import React, { useEffect, Suspense } from 'react';
-import LazyLoader from './components/LazyLoader/LazyLoader';
+import React from 'react';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 export const metadata = {
   title: 'Trang chủ • Nguyễn Minh Châu',
 };
-
-const LazyHeaderCP = React.lazy(() => import('./components/Header/Header'));
-const LazyFooterCP = React.lazy(() => import('./components/Footer/Footer'));
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <html lang="en">
       <head>
@@ -35,17 +27,12 @@ export default function RootLayout({
           src="https://kit.fontawesome.com/cc3041f69f.js"
           crossOrigin="anonymous"
         ></script>
-        <title>Trang chủ • Nguyễn Minh Châu</title>
       </head>
       <body>
         <div className="container">
-          <LazyLoader>
-            <LazyHeaderCP />
-          </LazyLoader>
+          <Header />
           <div className="content">{children}</div>
-          <LazyLoader>
-            <LazyFooterCP />
-          </LazyLoader>
+          <Footer />
         </div>
       </body>
     </html>

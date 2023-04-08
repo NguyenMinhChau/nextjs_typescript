@@ -1,8 +1,14 @@
-import React from 'react';
+'use client';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import CertificateItemCP from './CertificateItemCP';
 import styles from './Certificates.module.css';
 
 function Certificates() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className={styles.certificates_container}>
       <CertificateItemCP

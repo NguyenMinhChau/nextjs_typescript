@@ -1,11 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 'use client';
-import Link from 'next/link';
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import ProjectItemCP from './ProjectItemCP';
 import styles from './Projects.module.css';
 
 function Projects() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className={styles.projects_container}>
       <ProjectItemCP

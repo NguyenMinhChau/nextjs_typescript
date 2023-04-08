@@ -1,9 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 'use client';
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import styles from './Skills.module.css';
 
 function Skills() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className={styles.skills_container}>
       <div className={`${styles.skill_item_container}`} data-aos="fade-right">
