@@ -22,7 +22,7 @@ function Projects() {
         footerTextRight="Personal"
         imageFooterUrl="/images/tikiweb.png"
         imageFooterTitle="Tiki Clone"
-        dataAos="fade-down"
+        // dataAos="fade-down"
       />
       <ProjectItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
@@ -34,7 +34,7 @@ function Projects() {
         footerTextRight="Personal"
         imageFooterUrl="/images/mymovie.png"
         imageFooterTitle="My Movie"
-        dataAos="fade-down"
+        // dataAos="fade-down"
       />
       <ProjectItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
@@ -46,7 +46,7 @@ function Projects() {
         footerTextRight="Personal"
         imageFooterUrl="/images/disneyweb.png"
         imageFooterTitle="Disney Clone"
-        dataAos="fade-down"
+        // dataAos="fade-down"
       />
       <ProjectItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
@@ -58,7 +58,7 @@ function Projects() {
         footerTextRight="Personal"
         imageFooterUrl="/images/weather.png"
         imageFooterTitle="Weather Clone"
-        dataAos="fade-down"
+        // dataAos="fade-down"
       />
       <ProjectItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
@@ -70,7 +70,7 @@ function Projects() {
         footerTextRight="Personal"
         imageFooterUrl="/images/notepad.png"
         imageFooterTitle="NotePad"
-        dataAos="fade-down"
+        // dataAos="fade-down"
       />
       <ProjectItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
@@ -82,7 +82,7 @@ function Projects() {
         footerTextRight="Personal"
         imageFooterUrl="/images/ecommerceweb.png"
         imageFooterTitle="Website e-commerce"
-        dataAos="fade-down"
+        // dataAos="fade-down"
       />
       <ProjectItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
@@ -94,7 +94,7 @@ function Projects() {
         footerTextRight="Personal"
         imageFooterUrl="/images/linkedlnweb.png"
         imageFooterTitle="Linkedln Clone"
-        dataAos="fade-down"
+        // dataAos="fade-down"
       />
       <ProjectItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
@@ -106,7 +106,7 @@ function Projects() {
         footerTextRight="Personal"
         imageFooterUrl="/images/messengersimple.png"
         imageFooterTitle="Messenger Clone Simple"
-        dataAos="fade-down"
+        // dataAos="fade-down"
       />
       <ProjectItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
@@ -118,7 +118,7 @@ function Projects() {
         footerTextRight="Team"
         imageFooterUrl="/images/shopcoin.png"
         imageFooterTitle="ShopCoin USA (Android app)"
-        dataAos="fade-down"
+        // dataAos="fade-down"
       />
       <ProjectItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
@@ -130,7 +130,7 @@ function Projects() {
         footerTextRight="Team"
         imageFooterUrl="/images/provident.png"
         imageFooterTitle="Provident Fund (Android app)"
-        dataAos="fade-down"
+        // dataAos="fade-down"
       />
     </div>
   );
