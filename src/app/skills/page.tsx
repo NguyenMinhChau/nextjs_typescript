@@ -70,13 +70,13 @@ function Skills() {
             className={styles.skill_logo}
             alt="Javascript"
           />
-          <img
+          {/* <img
             src="https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png"
             width="50px"
             title="TypeScript"
             className={styles.skill_logo}
             alt="TypeScript"
-          />
+          /> */}
           <img
             src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png"
             width="50px"
@@ -91,13 +91,13 @@ function Skills() {
             className={styles.skill_logo}
             alt="Redux"
           />
-          <img
+          {/* <img
             src="https://user-images.githubusercontent.com/25181517/183890595-779a7e64-3f43-4634-bad2-eceef4e80268.png"
             width="50px"
             title="Angular"
             className={styles.skill_logo}
             alt="Angular"
-          />
+          /> */}
           <img
             src="/images/nextjs_logo.png"
             width="50px"
@@ -148,13 +148,13 @@ function Skills() {
             title="MongoDB"
             alt="MongoDB"
           />
-          <img
+          {/* <img
             src="https://user-images.githubusercontent.com/25181517/183896128-ec99105a-ec1a-4d85-b08b-1aa1620b2046.png"
             width="50px"
             className={styles.skill_logo}
             title="MySQL"
             alt="MySQL"
-          />
+          /> */}
         </div>
       </div>
       <div className={`${styles.skill_item_container}`} data-aos="fade-right">

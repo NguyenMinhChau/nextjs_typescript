@@ -74,18 +74,6 @@ function Projects() {
       />
       <ProjectItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
-        imageHeaderTitle="Website e-commerce"
-        linkWeb="https://nguyenminhchau.site/"
-        bodyTitle="Công nghệ sử dụng trong dự án: ReactJS, NodeJS, ExpressJS, MongoDB,..."
-        bodyDescDetail="Sản phẩm này được viết bằng sự kết hợp của 2 framework ReactJs (frontend) và ExpressJS (backend) cùng với các thư viện hỗ trợ khác. Database sử dụng trong dự án này là Mongodb. Website này có các chức năng như: đăng kí/đăng nhập/quên mật khẩu/đổi mật khẩu/xác thực email, tìm kiếm sản phẩm theo nhà sản xuất/giá, phân quyền user/admin, chat bot tự động, mua hàng và thanh toán trực tuyến (stripe, paypal), email marketing, email xác thực đơn hàng,..."
-        footerTextLeft="Website e-commerce"
-        footerTextRight="Personal"
-        imageFooterUrl="/images/ecommerceweb.png"
-        imageFooterTitle="Website e-commerce"
-        // dataAos="fade-down"
-      />
-      <ProjectItemCP
-        imageHeaderUrl="/svgs/logo_new.svg"
         imageHeaderTitle="Linkedln Clone"
         linkWeb="https://linkedln-clone-5568b.web.app/"
         bodyTitle="Công nghệ sử dụng trong dự án: ReactJS, Redux, Redux-Toolkit, Firebase,..."
@@ -101,11 +89,47 @@ function Projects() {
         imageHeaderTitle="Messenger Clone Simple"
         linkWeb="https://messenger-app-090622.web.app/"
         bodyTitle="Công nghệ sử dụng trong dự án: ReactJS, Firebase,..."
-        bodyDescDetail="Sản phẩm này có các chức năng như: đăng nhập tài khoản người dùng (bằng bằng google). Vì đơn giản nên chỉ có thể trò chuyện giữa 2 người với nhau 😂 Công nghệ được sử dụng bao gồm framework Reactjs và sử dụng một dịch vụ cơ sở dữ liệu được hoạt động ở trên nền tảng đám mây là firebase và các thư viện hỗ trợ khác"
+        bodyDescDetail="Sản phẩm này có các chức năng như: đăng nhập tài khoản người dùng (bằng google). Vì đơn giản nên chỉ có thể trò chuyện giữa 2 người với nhau 😂 Công nghệ được sử dụng bao gồm framework Reactjs và sử dụng một dịch vụ cơ sở dữ liệu được hoạt động ở trên nền tảng đám mây là firebase và các thư viện hỗ trợ khác"
         footerTextLeft="Messenger Clone Simple"
         footerTextRight="Personal"
         imageFooterUrl="/images/messengersimple.png"
         imageFooterTitle="Messenger Clone Simple"
+        // dataAos="fade-down"
+      />
+      <ProjectItemCP
+        imageHeaderUrl="/svgs/logo_new.svg"
+        imageHeaderTitle="IFX EXPO"
+        linkWeb="https://megafindtech.vercel.app/"
+        bodyTitle="Công nghệ sử dụng trong dự án: NextJS, aos,..."
+        bodyDescDetail="Sản phẩm này chủ yếu luyện tập clone giao diện của một web đã có sẵn."
+        footerTextLeft="IFX EXPO"
+        footerTextRight="Personal"
+        imageFooterUrl="/images/ifxexpo.png"
+        imageFooterTitle="IFX EXPO"
+        // dataAos="fade-down"
+      />
+      <ProjectItemCP
+        imageHeaderUrl="/svgs/logo_new.svg"
+        imageHeaderTitle="Trang tuyển dụng Vinjob"
+        linkWeb="https://vinjobs.vercel.app/"
+        bodyTitle="Công nghệ sử dụng trong dự án: ReactJS, Firebase,..."
+        bodyDescDetail="Sản phẩm này chủ yếu dùng để đọc tin tuyển dụng và các tin tức."
+        footerTextLeft="Vinjob"
+        footerTextRight="Personal_AIKING"
+        imageFooterUrl="/images/vinjob.png"
+        imageFooterTitle="Vinjob"
+        // dataAos="fade-down"
+      />
+      <ProjectItemCP
+        imageHeaderUrl="/svgs/logo_new.svg"
+        imageHeaderTitle="AIKING GROUP"
+        linkWeb="https://aiking.vercel.app/"
+        bodyTitle="Công nghệ sử dụng trong dự án: NextJS, axios,..."
+        bodyDescDetail="Sản phẩm này chủ yếu dùng giới thiệu công ty và thực hiện gửi quỹ tiết kiệm."
+        footerTextLeft="AIKING"
+        footerTextRight="Personal_AIKING"
+        imageFooterUrl="/images/aikingweb.png"
+        imageFooterTitle="AIKING"
         // dataAos="fade-down"
       />
       <ProjectItemCP

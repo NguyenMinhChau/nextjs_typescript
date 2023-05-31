@@ -26,9 +26,9 @@ function Home() {
             • Tôi tốt nghiệp Đại học Sư phạm Thành phố Hồ Chí Minh. Tôi hiện
             đang sinh sống và làm việc tại TP.HCM. <br />• Tôi có 1 năm kinh
             nghiệm trong việc phát triển web. Tôi hiện đang chuyên về ReactJS,
-            NextJS, Typescript, Javascript, HTML, CSS, SASS, Bootstrap, Material
-            UI, Ant Design, React Native, NodeJS, ExpressJS, MongoDB, MySQL,
-            Git, Github, Vercel, v.v. <br />
+            NextJS, Javascript, HTML, CSS, SASS, Bootstrap, Material UI, Ant
+            Design, React Native, NodeJS, ExpressJS, MongoDB, Git, Github,
+            Vercel, v.v. <br />
           </p>
           <p className={styles.position_dev_text}>
             Rất vui khi được biết bạn 😊

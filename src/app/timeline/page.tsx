@@ -70,6 +70,13 @@ function TimelinePage() {
           typography="Tự học tại nhà"
           colorIcon="primary"
         />
+        <TimeLineItemCP
+          timer="6/2023 - nay"
+          nameIcon="fa-solid fa-code"
+          typographyTitle="Frontend Developer"
+          typography="FPT Telecom"
+          colorIcon="primary"
+        />
       </Timeline>
     </div>
   );

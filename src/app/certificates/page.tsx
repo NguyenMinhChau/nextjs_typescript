@@ -14,6 +14,28 @@ function Certificates() {
       <CertificateItemCP
         imageHeaderUrl="/svgs/logo_new.svg"
         imageHeaderTitle="Certificate"
+        linkWeb="https://drive.google.com/file/d/17WrmB8z3vmI-4b6kfpzROR8kfQvLDdaP/view?usp=drive_link"
+        bodyTitle="Nghiên cứu khoa học cấp Khoa"
+        footerTextLeft="Certificate"
+        footerTextRight="HCMUE"
+        imageFooterUrl="/images/Bang_khen_NCKH.png"
+        imageFooterTitle="Certificate"
+        // dataAos="fade-down"
+      />
+      <CertificateItemCP
+        imageHeaderUrl="/svgs/logo_new.svg"
+        imageHeaderTitle="Certificate"
+        linkWeb="https://drive.google.com/file/d/1p6_1OSND-s5yH8tc9He9oLqqOQ4o57Mu/view?usp=drive_link"
+        bodyTitle="Sinh viên xuất sắc 2021-2022"
+        footerTextLeft="Certificate"
+        footerTextRight="HCMUE"
+        imageFooterUrl="/images/Bang_khen_SVXS.png"
+        imageFooterTitle="Certificate"
+        // dataAos="fade-down"
+      />
+      <CertificateItemCP
+        imageHeaderUrl="/svgs/logo_new.svg"
+        imageHeaderTitle="Certificate"
         linkWeb="https://drive.google.com/file/d/15t36-w-L33WwEZNPcRdTRMU_HfNXe6J8/view?usp=sharing"
         bodyTitle="Agile & Scrum Training"
         footerTextLeft="Certificate"
